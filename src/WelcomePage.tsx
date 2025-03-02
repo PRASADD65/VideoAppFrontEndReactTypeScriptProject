@@ -9,7 +9,7 @@ const WelcomePage: React.FC = () => {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '100vh',
+        height: '90vh',
         backgroundColor: '#f0f0f0',
         fontFamily: 'Arial, sans-serif',
       };
