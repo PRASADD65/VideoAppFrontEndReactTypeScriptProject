@@ -60,7 +60,7 @@ const Signup: React.FC = () => {
   const handleSignup = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://18.60.254.193:7070/api/signup', {
+      const response = await axios.post('http://18.60.254.193:8080/api/signup', {
         firstName,
         lastName,
         password,
