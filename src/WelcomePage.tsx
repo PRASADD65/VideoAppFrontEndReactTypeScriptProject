@@ -59,7 +59,7 @@ const WelcomePage: React.FC = () => {
 
   return (
     <div style={welcomePageStyle}>
-      <h1 style={titleStyle}>Welcome to Abhi World</h1>
+      <h1 style={titleStyle}>Welcome To 3 Tier Project Apllication</h1>
       <p style={subtitleStyle}>Please login or signup to continue</p>
       <button style={buttonStyle} onClick={() => setIsLogin(true)}>Login</button>
       <br/>
