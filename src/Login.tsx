@@ -58,7 +58,7 @@ const Login: React.FC = () => {
   const handleLogin = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:8080/api/login', {
+      const response = await axios.post('http://18.60.254.193:7070/api/login', {
         firstName,
         password,
       });
