@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://18.61.35.21:8080/api/video';
+const API_URL = 'http://localhost:8080/api/video';
 
 export interface Record {
   id: number;
@@ -14,4 +14,10 @@ export const getAllRecords = async (videoName?: string): Promise<Record[]> => {
     params: { videoName },
   });
   return response.data;
+};
+
+export const fetchAllVideos = async () => {
+  
+    const response = await axios.get<Record[]>('http://localhost:8080/api/video/getAllVideos');
+    return response.data; 
 };
