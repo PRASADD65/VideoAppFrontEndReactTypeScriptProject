@@ -15,3 +15,9 @@ export const getAllRecords = async (videoName?: string): Promise<Record[]> => {
   });
   return response.data;
 };
+
+export const fetchAllVideos = async () => {
+  
+    const response = await axios.get<Record[]>('http://localhost:8080/api/video/getAllVideos');
+    return response.data; 
+};

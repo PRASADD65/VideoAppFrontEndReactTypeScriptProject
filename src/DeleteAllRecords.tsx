@@ -20,7 +20,7 @@ const DeleteAllRecords: React.FC = () => {
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:8080/api/video', {
+      const response = await fetch('http://98.130.117.99:8080/api/video', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

@@ -31,15 +31,15 @@ const VideoSearch: React.FC = () => {
   };
 
   const buttonStyles: React.CSSProperties = {
-    padding: '8px 18px',
-    fontSize: '12px',
-    backgroundColor: '#007bff',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '2px',
-    cursor: 'pointer',
-    marginTop: '6px',
-  };
+        padding: '8px 16px',
+        fontSize: '16px',
+        backgroundColor: '#007bff',
+        color: '#fff',
+        border: 'none',
+        borderRadius: '4px',
+        cursor: 'pointer',
+      };
+
   const h1Style: React.CSSProperties = {
     color: 'blue',
     fontSize: '24px',
@@ -112,6 +112,7 @@ const VideoSearch: React.FC = () => {
         <label style={labelStyle}> Video Source Url :</label>
         <input style={inputStyles} type="text" value={videoSourceUrl} onChange={(e) => setVideoSourceUrl(e.target.value)} required />
       </div>
+      <br/>
       <button type="submit" style={buttonStyles} disabled={loading}> Add Video </button>
       {loading && (
   <div style={{ textAlign: 'center' }}>

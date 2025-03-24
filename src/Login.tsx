@@ -11,7 +11,7 @@ const Login: React.FC = () => {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '90vh',
+        height: '100vh',
         backgroundColor: '#f0f0f0',
         fontFamily: 'Arial, sans-serif',
       };
