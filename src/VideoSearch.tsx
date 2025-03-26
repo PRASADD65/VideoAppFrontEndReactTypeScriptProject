@@ -119,7 +119,7 @@ const VideoSearch: React.FC = () => {
     <ClipLoader color="#36d7b7" size={50} />
   </div>
 )}
-    </form><><h1 style={h1Style}>Abhi Videos Store</h1><form style={formStyles} onSubmit={handleSubmitnested}><RecordList /></form></>
+    </form><><h1 style={h1Style}>Project Videos Store</h1><form style={formStyles} onSubmit={handleSubmitnested}><RecordList /></form></>
         
     </>
   );
